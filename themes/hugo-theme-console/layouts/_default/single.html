@@ -1,4 +1,9 @@
 {{ define "main" }}
+<div id="search-results" style="text-align: right;">
+    <form action="{{ "search" | absURL }}">
+        <input id="search-query" name="s" placeholder="         search in the posts">
+    </form>
+</div>
 <h1>{{ .Title }}</h1>
 {{ .Content }}
 <!-- {{ if and (.Site.Params.utterancesRepo) (ne .Params.showComments false) }} -->
