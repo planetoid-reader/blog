@@ -1,4 +1,7 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 {{ .Content }}
+<!-- {{ if and (.Site.Params.utterancesRepo) (ne .Params.showComments false) }} -->
+{{ partials "comment-utterances.html" . }}
+<!-- {{ else }}{{ end }} -->
 {{ end }}

@@ -5,7 +5,9 @@ title = "Personal Blog"
 theme = "hugo-theme-console"
 
 paginate = 5000 #frontpage pagination
-disqusShortname = "planetoidreader"
+#disqusShortname = "planetoidreader"
+
+
 
 [params]
   # Cutting off the page title to two chars for mobile (console-demo -> co)
@@ -26,3 +28,9 @@ disqusShortname = "planetoidreader"
   [[params.navlinks]]
   name = "photos/"
   url = "photos/"
+
+  # Comments
+  # utterances, see: https://utteranc.es/
+  #utterancesRepo = "planetoid-reader.gihub.io"
+  utterancesRepo = "planetoid-reader.gihub.io"
+  utterancesIssueTerm = "pathname"

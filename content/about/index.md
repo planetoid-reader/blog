@@ -30,9 +30,6 @@ theme = "hugo-theme-console"
 {{< plotly json="../plotly/plot_name.json" height="400px" >}}
 
 
-## Comments 
-{{< comments  height="400px">}}
-
 
 
 ## License
