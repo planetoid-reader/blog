@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div id="search-results" style="text-align: right;">
     <form action="{{ "search" | absURL }}">
-        <input id="search-query" name="s" placeholder="         search in the posts">
+        <input id="search-query" type="search" placeholder="{{ T "search_placeholder" }}" value="" name="s" aria-label="{{ T "search_placeholder" }}">
     </form>
 </div>
 <h1>{{ .Title }}</h1>
