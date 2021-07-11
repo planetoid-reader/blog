@@ -10,5 +10,13 @@
 {{ end }}
 <br/><br/>
 {{ .Content }}
-{{ template "_internal/disqus.html" . }}
+<h2>Comments</h2>
+<script src="https://utteranc.es/client.js"
+        repo="planetoid-reader.github.io"
+        issue-term="title"
+        label="blog comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 {{ end }}

@@ -1,6 +1,7 @@
 +++
 date = "2016-11-05T21:05:33+05:30"
 title = "About"
+plotly = true
 +++
 
 A minimal, responsive and light theme for Hugo inspired by Linux console. 
@@ -9,7 +10,7 @@ A minimal, responsive and light theme for Hugo inspired by Linux console.
 
 ## Installation
 
-```
+```bash
 $ mkdir themes
 $ cd themes
 $ git submodule add https://github.com/mrmierzejewski/hugo-theme-console.git hugo-theme-console
@@ -24,6 +25,15 @@ Set theme parameter in your config file:
 ```
 theme = "hugo-theme-console"
 ```
+
+
+{{< plotly json="../plotly/plot_name.json" height="400px" >}}
+
+
+## Comments 
+{{< comments  height="400px">}}
+
+
 
 ## License
 
