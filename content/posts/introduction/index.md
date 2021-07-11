@@ -1,6 +1,8 @@
 +++
 title = "What is Hugo"
 date = "2019-07-01"
+katex = true
+markup = "mmark"
 +++
 
 Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.
@@ -12,3 +14,9 @@ Websites built with Hugo are extremely fast and secure. Hugo sites can be hosted
 We think of Hugo as the ideal website creation tool with nearly instant build times, able to rebuild whenever a change is made.
 
 ## What is wrong with my comments?
+
+The following
+
+$$\int_{a}^{b} x^2 dx$$
+
+Is an integral

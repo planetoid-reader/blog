@@ -55,7 +55,8 @@
         {{ block "main" . }}
         {{ end }}
         {{ partial "footer.html" . }}
-        {{ partial "comments.html" . }}
+        
     </div>
   </body>
+  <!-- {{ if .Params.katex}}{{ partial "katex.html" . }}{{ end }} -->
 </html>

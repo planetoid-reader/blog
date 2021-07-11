@@ -10,10 +10,12 @@
 {{ end }}
 <br/><br/>
 {{ .Content }}
-{{ template "_internal/disqus.html" . }}
-<h2>Comments</h2>
-<!-- {{ partial "comments" .}} -->
-<div>
+<!-- {{ template "_internal/disqus.html" . }} -->
+<!-- <h2>Comments</h2> -->
+<div class="post-comments surface row">
+    {{- partial "comments" . }}
+</div>
+<!-- <div>
     <script src="https://utteranc.es/client.js"
         repo="planetoid-reader/planetoid-reader"
         issue-term="pathname"
@@ -22,6 +24,6 @@
         crossorigin="anonymous"
         async>
     </script>
-</div>
+</div> -->
 
 {{ end }}
