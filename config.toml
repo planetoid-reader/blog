@@ -5,6 +5,7 @@ title = "Personal Blog"
 theme = "hugo-theme-console"
 
 paginate = 5000 #frontpage pagination
+disqusShortname = "planetoidreader"
 
 [params]
   # Cutting off the page title to two chars for mobile (console-demo -> co)
